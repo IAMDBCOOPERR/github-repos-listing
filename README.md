@@ -7,7 +7,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+      git clone  https://github.com/IAMDBCOOPERR/github-repos-listing.git
     ```
 
 2. Navigate to the project directory:
@@ -28,4 +28,4 @@ To run the project locally, follow these steps:
     npm run serve
     ```
 
-   This will start the development server. You can access the application at [http://localhost:3000](http://localhost:3000).
+   This will start the development server. You can access the application at [http://localhost:3000](http://localhost:8081).
