@@ -1,2 +1,31 @@
-﻿# github-repos-listing
+#Github-repos-listing
 
+## Running the Project
+
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/your-repository.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd your-repository
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Run the application:
+
+    ```bash
+    npm run serve
+    ```
+
+   This will start the development server. You can access the application at [http://localhost:3000](http://localhost:3000).
