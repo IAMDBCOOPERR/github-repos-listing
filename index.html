@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub User Info and Repos</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script
+   src="https://kit.fontawesome.com/83c0f3dcce.js"
+   crossorigin="anonymous"
+  ></script>
+ </head>
+ <body>
+  <div class="input-bar">
+   <input
+    type="text"
+    id="username"
+    placeholder="Enter GitHub Username"
+    size="50"
+   />
+   <button onclick="fetchD()">Search</button>
+  </div>
+  <div id="user-info"></div>
+  <div class="repo_container">
+   <div
+    class="loading"
+    style="
+     display: none;
+     height: 40vh;
+     background-color: transparent;
+     justify-content: center;
+     align-items: center;
+    "
+   >
+    <div class="lds-spinner">
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+    </div>
+   </div>
+   <div class="repos"></div>
+  </div>
+  <div id="pagination"></div>
+
+  ]
+  <script src="index.js"></script>
+ </body>
+</html>
